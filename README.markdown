@@ -13,3 +13,9 @@ Additional remarks
 * Running the script with a keyboard shortcut set in the ubuntu Keyboard Shortcuts menu does not work for the moment. It does work with compiz keyboard shortcuts though. 
 * Running it with cron did not work either when I tested it. I will look into this issue as well. Please let me know if it works on your computer.
 * If you have any feedback (negative or positive) drop me an e-mail at basil.philipp@gmail.com
+
+Future features
+---------------
+* Display titles
+* Add option for hiding downloaded file
+* Update background when new comic is published.
