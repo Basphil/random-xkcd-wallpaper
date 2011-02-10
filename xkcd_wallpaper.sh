@@ -17,13 +17,19 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 
+#Creates working directory. Picture will be saved in this directory.
+directory="$HOME/.xkcd_wallpaper"
 
+if [ ! -d "$directory" ]
+then
+	mkdir $directory
+fi
 
+cd $directory
 
 # /random/comic redirects to random comic. Wget gets the index.html of the comic.
 wget http://dynamic.xkcd.com/random/comic/
 
-echo $(pwd)
 
 #Searches the line in the index.html file that points to the url where the actual comic is placed.
 #The image urls are of the form: http://imgs.xkcd.com/comics/.'name of comic'.(png | jpg)

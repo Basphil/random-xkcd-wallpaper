@@ -1,10 +1,10 @@
 What this script does
 ---------------------
-It downloads a random xkcd comic from xkcd.com and sets it as your desktop background. The image file gets saved under `current_xkcd_wallpaper.(png | jpg)`. 
+Downloads a random xkcd comic from xkcd.com and sets it as your desktop background. Only works with GNOME for the moment. 
 
 How to use it
 -------------
-Get `xkcd_wallpaper.sh` either by cloning or downloading the file. Run it from the terminal, with a keyboard shortcut or with a custom application launcher. You can run the script with `sh xkcd_wallpaper.sh` or `./xkcd_wallpaper.sh`. The file `current_xkcd_wallpaper.(png | jpg)` gets saved in the current working directory of the shell. So if you run it from a keyboard shortcut or a custom application launcher this will be your HOME directory. 
+Get `xkcd_wallpaper.sh` either by cloning the github project or downloading the file. Run it from the terminal, with a keyboard shortcut or with a custom application launcher. You can run the script with `sh xkcd_wallpaper.sh` or `./xkcd_wallpaper.sh`. The file `current_xkcd_wallpaper.(png | jpg)` gets saved in your home directory in the hidden folder `.xkcd_wallpaper`. 
 
 Additional remarks
 -----------------
@@ -16,6 +16,6 @@ Additional remarks
 
 Future features
 ---------------
-* Display titles
-* Add option for hiding downloaded file
+* Display titles.
+* Make it possible to choose the location where the picture file gets saved.
 * Update background when new comic is published.
