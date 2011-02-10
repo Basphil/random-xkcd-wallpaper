@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #    random xkcd wallpaper: gets a random xkcd comic from xkcd.com and sets it as the desktop background.
 #    Copyright (C) 2011  Basil Philipp, basil.philipp@gmail.com
 
@@ -15,7 +17,6 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 
-#!/bin/bash
 
 
 
